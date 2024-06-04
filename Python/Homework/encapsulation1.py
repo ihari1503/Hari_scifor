@@ -1,8 +1,8 @@
 class Car:
   def __init__(self,brand,model,year):
-    self.__brand
-    self.model
-    self.year
+    self.__brand = brand
+    self.model = model
+    self.year = year
   def getbrand(self):
     return.self.__brand
     
