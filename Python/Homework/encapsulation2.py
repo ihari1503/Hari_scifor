@@ -1,8 +1,8 @@
 class student:
   def __init__(self,name,studentid,present_days):
-    self.name
-    self.__studentid
-    self.attendance
+    self.name = name
+    self.__studentid = studentid 
+    self.present_days = present_days
 
   def getstdid(self):
     return self.__studentid
